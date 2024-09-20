@@ -1,0 +1,74 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card1,.card2, .card3{
+    background-image: url(https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=612x612&w=0&k=20&c=jlYes8ZfnCmD0lLn-vKvzQoKXrWaEcVypHnB5MuO-g8=);
+    background-size: cover;
+    width: 200px;
+    padding: 10px;
+    border: 5px solid lightgrey;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: 50px 50px;
+    transition: 500ms all;
+    
+}
+.card .date{
+    color: white;
+    text-align: right;
+    opacity: 0;
+    transition: 500ms all;
+}
+
+.card .content{
+    color: white;
+    margin-top: 100px;
+    opacity: 0;
+    transition: 500ms all;
+}
+.card .content .heading h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card .content .explanation{
+    margin-bottom: 20px;
+}
+.card .content .syntaxlink a{
+    color: white;
+    background-color: rgba(128, 128, 128, 0.716);
+    border-radius: 5px;
+    font-size: small;
+    padding: 3px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card1:hover{
+    background-image:url(https://img.freepik.com/premium-photo/creative-glowing-blue-coding-programming-background-with-blank-square-mock-up-frame-big-data-code-concept-3d-rendering_670147-2288.jpg);
+    background-size: auto; 
+}
+.card2:hover{
+    background-image:url(https://img.freepik.com/premium-photo/creative-glowing-blue-coding-programming-background-with-blank-square-mock-up-frame-big-data-code-concept-3d-rendering_670147-2288.jpg);
+    background-size: auto; 
+}
+.card3:hover{
+    background-image:url(https://img.freepik.com/premium-photo/creative-glowing-blue-coding-programming-background-with-blank-square-mock-up-frame-big-data-code-concept-3d-rendering_670147-2288.jpg);
+    background-size: auto; 
+}
+.card1:hover .content{
+    opacity: 1;
+}
+.card2:hover .content{
+    opacity: 1;
+}
+.card3:hover .content{
+    opacity: 1;
+}
+.card1:hover .date{
+    opacity: 1;
+}
+.card2:hover .date{
+    opacity: 1;
+}
+.card3:hover .date{
+    opacity: 1;
+}
